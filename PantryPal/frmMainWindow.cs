@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PantryPal
 {
-    public partial class Form1 : Form
+    public partial class frmMainWindow : Form
     {
-        public Form1()
+        public frmMainWindow()
         {
             InitializeComponent();
         }
