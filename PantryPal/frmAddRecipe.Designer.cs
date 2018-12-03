@@ -172,6 +172,7 @@
             this.btnCloseWindow.TabIndex = 15;
             this.btnCloseWindow.Text = "Close Window";
             this.btnCloseWindow.UseVisualStyleBackColor = true;
+            this.btnCloseWindow.Click += new System.EventHandler(this.btnCloseWindow_Click);
             // 
             // lblConfirmation
             // 

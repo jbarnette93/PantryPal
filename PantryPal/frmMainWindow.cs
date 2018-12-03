@@ -16,5 +16,28 @@ namespace PantryPal
         {
             InitializeComponent();
         }
+
+        private void btnEditPantry_Click(object sender, EventArgs e)
+        {
+            frmEditPantry EditWindow = new frmEditPantry();
+            EditWindow.Show();
+        }
+
+        private void btnViewRecipe_Click(object sender, EventArgs e)
+        {
+            frmViewRecipe ViewRecipeWin = new frmViewRecipe();
+            ViewRecipeWin.Show();
+        }
+
+        private void btnAddRecipe_Click(object sender, EventArgs e)
+        {
+            frmAddRecipe AddRecipeWin = new frmAddRecipe();
+            AddRecipeWin.Show();
+        }
+
+        private void frmMainWindow_Load(object sender, EventArgs e)
+        {
+            lstPantry.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
+        }
     }
 }

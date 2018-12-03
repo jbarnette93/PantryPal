@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace PantryPal
 {
-    public partial class frmAddRecipe : Form
+    public partial class frmViewRecipe : Form
     {
-        public frmAddRecipe()
+        public frmViewRecipe()
         {
             InitializeComponent();
         }
 
-        private void textBox9_TextChanged(object sender, EventArgs e)
+        private void frmViewRecipe_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void btnCloseWindow_Click(object sender, EventArgs e)
+        private void btnCloseViewWindow_Click(object sender, EventArgs e)
         {
             this.Close();
         }
