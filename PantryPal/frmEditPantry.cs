@@ -45,7 +45,7 @@ namespace PantryPal
 
             tblPantryItems.Items.Clear();
 
-            
+
 
             for (int i = 0; i < Program.pantryItems.Count; i++)
             {
@@ -73,6 +73,11 @@ namespace PantryPal
             }
 
             tblPantryItems.Refresh();
+        }
+
+        private void btnRemoveItems_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

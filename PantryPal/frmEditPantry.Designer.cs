@@ -157,6 +157,7 @@
             this.btnRemoveItems.TabIndex = 14;
             this.btnRemoveItems.Text = "Remove From Pantry";
             this.btnRemoveItems.UseVisualStyleBackColor = true;
+            this.btnRemoveItems.Click += new System.EventHandler(this.btnRemoveItems_Click);
             // 
             // btnClose
             // 
